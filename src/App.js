@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
 import Nav from './components/Nav';
+import MainOne from './components/MainOne';
 
 
 class App extends Component {
@@ -10,6 +11,9 @@ class App extends Component {
     		<Nav />
 	      <div className="w-100 w-50-ns pa3 center">
 	        <Header />
+	      </div>
+	      <div className="w-100 center">
+	        <MainOne />
 	      </div>
 	    </div>
     );
