@@ -1,0 +1,22 @@
+/*
+   
+
+
+SKINS
+Docs: http://tachyons.io/docs/themes/skins/
+Classes for setting foreground and background colors on elements.
+If you haven't declared a border color, but set border on an element, it will 
+be set to the current text color.
+
+
+
+*/
+
+/* Text Colors */
+
+.green { color: var(--green); }
+
+
+/*Background Colors */
+
+.bg-green { background-color: var(--green); }
