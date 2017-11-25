@@ -7,9 +7,11 @@ import React from 'react';
 // )
 
 const Button = () => (
-  <button className="f5 link dim br1 ph3 pv2 mb2 dib white bg-green">
+  <a 
+  	href="mailto:hello@getopen.link?Subject=Hello" 
+  	className="f5 link dim br1 ph3 pv2 mb2 dib white bg-green shadow-6" >
   	Email us to get started
-  </button>
+  </a>
 )
 
 export default Button
